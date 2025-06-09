@@ -1,0 +1,17 @@
+type: GenericCrafter
+name: Copper Surger Reset
+description: copper + surge alloy
+health: 100
+size: 1
+inputItems: copper/2,copper-alloy/2
+outputItems: surge-alloy/2
+craftTime: 80.0
+warmupSpeed: 0.019
+category: crafting
+research: {
+  parent: copper-surger
+  requirements: [
+    copper-alloy/50
+    surge-alloy/100
+  ]
+}
