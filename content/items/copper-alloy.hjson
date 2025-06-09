@@ -1,0 +1,6 @@
+type: Item
+name: Copper Alloy
+description: Copper Alloy Jorney.
+color: #f2c629
+cost: 1
+buildable: true
