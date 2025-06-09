@@ -1,0 +1,17 @@
+type: GenericCrafter
+name: Copper Surger
+description: copper + surge alloy
+health: 100
+size: 1
+inputItems: copper/2,surge-alloy/2
+outputItems: copper-alloy/2
+craftTime: 80.0
+warmupSpeed: 0.019
+category: crafting
+research: {
+  parent: core-shard
+  requirements: [
+    copper/100
+    surge-alloy/100
+  ]
+}
