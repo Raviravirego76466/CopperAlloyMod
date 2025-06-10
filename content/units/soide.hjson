@@ -59,33 +59,8 @@ abilities: [
       mirror: false
       reload: 210
       shootCone: 5
-      shootSound: abilities: [
-    type: MoveEffectAbility
-    minVelocity: 1.1
-    x: 0
-    y: -2.4
-    effect: artilleryTrailSmoke
-    teamColor: true
-    interval: 3
-]
-  weapons: [
-    {
-      top: false
-      x: -6.1
-      name: soide-weapon
-      recoil: 0.4
-      shootCone: 45
-        y: 1.25
-        reload: 72
-        rotate: false
-        mirror: true
-        alternate: true
-        shoot: {
-          shots: 2
-          shotDelay: 12
-        }
-        shootSound: shoot-laser
-        bullet: {
+      shootSound: shoot-laser
+bullet: {
           type: BasicBulletType
           speed: 4
           lifetime: 32
@@ -99,7 +74,6 @@ abilities: [
           trailEffect: disperseTrail
           trailInterval: 3
         }
-    }
     {  
       x: 0
       y: 0
