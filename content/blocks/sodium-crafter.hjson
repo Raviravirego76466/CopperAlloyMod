@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Sodium Crafter
+description: Soild Crafter
+health: 100
+size: 1
+consumes: {
+items: [
+ copper-alloy/3
+]
+liquids: [
+    cryofluid/0.15
+  ]}
+outputItem: sodium/2
+craftTime: 80.0
+warmupSpeed: 0.019
+category: crafting
+research: {
+  parent: copper-surger
+  requirements: [
+    copper-alloy/100
+    surge-alloy/100
+  ]
+}
+requirements: [
+copper-alloy/60
+surge-alloy/120
+]
