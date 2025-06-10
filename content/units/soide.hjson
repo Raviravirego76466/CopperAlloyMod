@@ -35,7 +35,7 @@ abilities: [
           shots: 2
           shotDelay: 12
         }
-        shootSound: energy-blade-launch
+        shootSound: shoot-laser
         bullet: {
           type: BasicBulletType
           speed: 4
@@ -59,7 +59,7 @@ abilities: [
       mirror: false
       reload: 210
       shootCone: 5
-      shootSound: energy-blade-hit
+      shootSound: shoot-laser
       bullet: {
         width: 0
         speed: 8
