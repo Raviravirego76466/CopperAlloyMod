@@ -98,7 +98,6 @@ bullet: {
         impact: true
       }
     }
-]
       bullet: {
         width: 0
         speed: 8
