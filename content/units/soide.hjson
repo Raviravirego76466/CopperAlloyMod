@@ -74,7 +74,6 @@ bullet: {
           trailEffect: disperseTrail
           trailInterval: 3
         }
-    {  
       x: 0
       y: 0
       display: false
@@ -112,5 +111,4 @@ bullet: {
         recoil: -24
         impact: true
       }
-    }
 ]
