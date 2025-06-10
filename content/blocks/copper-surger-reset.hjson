@@ -15,3 +15,7 @@ research: {
     surge-alloy/100
   ]
 }
+requirements: [
+copper-alloy/60
+surge-alloy/120
+]
