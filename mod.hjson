@@ -1,7 +1,7 @@
 name: copper-alloy-lover
 displayName: Copper Alloy
 author: Raviravirego76466
-description: add blocks and items.
+description: add blocks and items and more.
 version: "1.0"
 minGameVersion: "146"
 dependencies: [ ]
