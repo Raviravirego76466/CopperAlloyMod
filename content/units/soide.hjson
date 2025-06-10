@@ -60,7 +60,6 @@ abilities: [
       reload: 210
       shootCone: 5
       shootSound: abilities: [
-  {
     type: MoveEffectAbility
     minVelocity: 1.1
     x: 0
@@ -68,7 +67,6 @@ abilities: [
     effect: artilleryTrailSmoke
     teamColor: true
     interval: 3
-  }
 ]
   weapons: [
     {
