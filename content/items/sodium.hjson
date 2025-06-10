@@ -1,0 +1,7 @@
+type: Item
+name: Sodium
+description: Sodium of Copper Alloy Jorney.
+color: #f2c629
+cost: 1
+buildable: true
+research: copper-surger
