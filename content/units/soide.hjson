@@ -35,7 +35,7 @@ abilities: [
           shots: 2
           shotDelay: 12
         }
-        shootSound: shoot-laser
+        shootSound: energy-blade-launch
         bullet: {
           type: BasicBulletType
           speed: 4
@@ -59,29 +59,7 @@ abilities: [
       mirror: false
       reload: 210
       shootCone: 5
-      shootSound: shoot-laser
-bullet: {
-          type: BasicBulletType
-          speed: 4
-          lifetime: 32
-          pierce: false
-          damage: 22
-          pierce: true
-          pierceCap: 2
-          width: 28
-          height: 12
-          sprite: orb_01
-          trailEffect: disperseTrail
-          trailInterval: 3
-        }
-      x: 0
-      y: 0
-      display: false
-      rotate: false
-      mirror: false
-      reload: 210
-      shootCone: 5
-      shootSound: shoot-laser
+      shootSound: energy-blade-hit
       bullet: {
         width: 0
         speed: 8
@@ -97,18 +75,4 @@ bullet: {
         impact: true
       }
     }
-      bullet: {
-        width: 0
-        speed: 8
-        lifetime: 10
-        despawnEffect: none
-        hitEffect: none
-        height: 0
-        collides: false
-        damage: 0
-        pierce: true
-        pierceBuilding: true
-        recoil: -24
-        impact: true
-      }
 ]
