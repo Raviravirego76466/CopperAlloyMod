@@ -76,3 +76,10 @@ abilities: [
       }
     }
 ]
+research: {
+  parent: copper-surger
+  requirements: [
+    sodium/100
+    copper/100
+  ]
+}
